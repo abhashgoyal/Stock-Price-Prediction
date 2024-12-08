@@ -282,67 +282,10 @@ class StockPredictor:
         
         return fig
 
-# def main():
-    
-#     stock_symbol = "ADANIPOWER.NS"  
-#     predictor = StockPredictor(stock_symbol)
-    
 
-#     stock_df = predictor.fetch_stock_data()
-#     if stock_df.empty:
-#         print("Failed to fetch stock data. Exiting...")
-#         return
-    
-#     print("\nFetching sentiment data...")
-#     sentiment_df = predictor.fetch_combined_sentiment()
-#     if sentiment_df.empty:
-#         print("No sentiment data available. Using only technical indicators...")
-#     else:
-#         print(f"Fetched sentiment data for {len(sentiment_df)} days")
-    
-#     print("\nPreparing features...")
-#     feature_df = predictor.prepare_features(stock_df, sentiment_df)
-#     print(f"Final dataset shape: {feature_df.shape}")
-
-#     feature_columns = [col for col in feature_df.columns 
-#                       if col not in ['Close', 'Returns', 'Date', 'Dividends', 'Stock Splits']]
-#     print(f"\nUsing features: {feature_columns}")
-    
-#     target = feature_df['Close']
-
-#     print("\nTraining model...")
-#     model, train_score, test_score, X_test, y_test = predictor.train_model(
-#         feature_df[feature_columns], 
-#         target
-#     )
-    
-#     print(f"\nModel Performance:")
-#     print(f"Train Score: {train_score:.4f}")
-#     print(f"Test Score: {test_score:.4f}")
-    
- 
-#     print("\nMaking predictions...")
-#     predictions = model.predict(X_test)
-    
-
-#     print("\nGenerating plot...")
-#     fig = predictor.plot_predictions(
-#         y_test,
-#         predictions,
-#         X_test.index
-#     )
-#     fig.show()
-
-# if __name__ == "__main__":
-#     try:
-#         main()
-#     except Exception as e:
-#         print(f"\nAn error occurred: {str(e)}")
-#         import traceback
-#         print(traceback.format_exc())
 
 def main():
-    # Initialize predictor
+    
     stock_symbol = "ADANIPOWER.NS"  
     predictor = StockPredictor(stock_symbol)
     
