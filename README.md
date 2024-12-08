@@ -44,10 +44,10 @@ The code generates interactive Plotly charts showing:
 - Technical indicators
 
 <h2>ADANI POWER</h2>
-![Stock Prediction](images/stock_prediction_adanipower.png)
+![Stock Prediction](images/adanipower.png)
 
 <h2> APPLE</h2>
-![Stock Prediction](images/stock_prediction_apple.png)
+![Stock Prediction](images/apple.png)
 
 
 <h2>🔍 Code Explanation</h2>
