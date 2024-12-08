@@ -1,0 +1,15 @@
+pandas
+tweepy
+numpy
+nltk
+matplotlib
+telethon
+praw
+yfinance
+textblob
+scikit-learn
+seaborn
+plotly
+nbformat>=4.2.0
+kaleido
+
