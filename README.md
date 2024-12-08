@@ -43,7 +43,12 @@ The code generates interactive Plotly charts showing:
 - Accuracy metrics over time
 - Technical indicators
 
-![Stock Prediction](images/stock_prediction.png)
+<h2>ADANI POWER</h2>
+![Stock Prediction](images/stock_prediction_adanipower.png)
+
+<h2> APPLE</h2>
+![Stock Prediction](images/stock_prediction_apple.png)
+
 
 <h2>🔍 Code Explanation</h2>
 
