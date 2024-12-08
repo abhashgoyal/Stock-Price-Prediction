@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Stock Movement Analysis Based on Social Media Sentiment</h1>
 
-<p id="description">A sophisticated machine learning system that predicts stock price movements by analyzing social media sentiment and technical indicators. The project combines data from Reddit, news sources, and market data to provide comprehensive stock predictions using advanced sentiment analysis and machine learning techniques.</p>
+<p id="description">A sophisticated machine learning system that predicts stock price movements by analyzing sentiment and technical indicators. The project combines data from Reddit, news sources, and market data to provide comprehensive stock predictions using advanced sentiment analysis and machine learning techniques.</p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="shields">
@@ -35,6 +35,12 @@ Technologies used in the project:
 * Plotly: Interactive visualizations
 * pandas: Data manipulation
 
+  <h2> Model Accuracy</h2>
+
+  <p>Attended a Accuracy <b>97.42%</b> </p>
+<img src="images/MOdelAccuracy.png" alt="Model Accuracy">
+  
+
   
 <h2>📈 Visualization Example</h2>
 
@@ -44,10 +50,15 @@ The code generates interactive Plotly charts showing:
 - Technical indicators
 
 <h2>ADANI POWER</h2>
-![Stock Prediction](images/adanipower.png)
+<p>Adani Stocks was full of Ups and Down, due to recent allegations, My model  very closely predicted that too </p>
+<img src="images/adani.png" alt="Stock Prediction of Adani Power">
+
 
 <h2> APPLE</h2>
-![Stock Prediction](images/apple.png)
+<p> Apple being a very stable stock</p>
+<img src="images/apple.png" alt="Stock Prediction of Apple">
+
+
 
 
 <h2>🔍 Code Explanation</h2>
